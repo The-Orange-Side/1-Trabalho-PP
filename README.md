@@ -4,17 +4,19 @@
 ### Descrição da Atividade Proposta
 Implementar um coletor automático de lixo em C utilizando a técnica de contagem de referências. Para tal, deve-se criar uma biblioteca estática que ofereça as seguintes funções:
  
-- **endereço malloc2(tamanho)** → esta função realiza a alocação dinâmica e retorna o endereço da área criada
-- **void atrib2(endereco, endereço2)** → esta função realiza a atribuição de ponteiros em C
+- **endereço malloc2(tamanho)** → Esta função realiza a alocação dinâmica e retorna o endereço da área criada.
+- **void atrib2(endereco, endereço2)** → Esta função realiza a atribuição de ponteiros em C.
 
 ### Arquivos
-- **coletor.c** → pipi popo
+- **coletor.c** → Implementação das funções que controlam a alocação e liberação de memória.
 
-- **coletor.h** → pipi popo
+- **coletor.h** → Cabeçalho da biblioteca.
 
-- **libcoletor.a** → pipi popo
+- **libcoletor.a** → Biblioteca estática compilada.
+
+- **Teste_Coletor_1** → Programa simples de teste que simula o uso da biblioteca.
 
 ##
 
-## <p align="center">Observações</p>
-pipi popo pipi popo pipi popopo
+
+O compilador usado para o projeto foi o *Code::Blocks*.
